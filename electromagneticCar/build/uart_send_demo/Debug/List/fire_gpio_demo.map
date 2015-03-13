@@ -1,0 +1,493 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.70.1.5641/W32 for ARM               14/Nov/2014  14:33:08 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -   #
+#                    副本\build\uart_send_demo\Debug\Exe\fire_gpio_demo.out   #
+#    Map file     =  C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -   #
+#                    副本\build\uart_send_demo\Debug\List\fire_gpio_demo.map  #
+#    Command line =  "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\adc.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\alloc.o"             #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\arm_cm4.o"           #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\assert.o"            #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\ccd.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\crt0.o"              #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\dbug.o"              #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\delay.o"             #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\dma.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\exti.o"              #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\FTM.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\gpio.o"              #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\io.o"                #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\isr.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\LED.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\lptmr.o"             #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\main.o"              #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\mcg.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\Mechine.o"           #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\memtest.o"           #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\nokia5110.o"         #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\PIT.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\printf.o"            #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\queue.o"             #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\Speed.o"             #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\start.o"             #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\startup.o"           #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\stdlib.o"            #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\steer.o"             #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\sysinit.o"           #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\system.o"            #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\uart.o"              #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\uif.o"               #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\vectors.o"           #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Obj\wdog.o" -o           #
+#                    "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf -  #
+#                    副本\build\uart_send_demo\Debug\Exe\fire_gpio_demo.out"  #
+#                    --map "C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcak #
+#                    upf - 副本\build\uart_send_demo\Debug\List\fire_gpio_dem #
+#                    o.map" --config "C:\Users\lenovo\Desktop\一些测试程序\CC #
+#                    D\CCd-bcakupf - 副本\build\uart_send_demo\..\config      #
+#                    files\fire_ROM_K60N512.icf" --semihosting --entry        #
+#                    __iar_program_start --vfe                                #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00040000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"P1", part 1 of 2:                             0x0
+  .rodata              const    0x00000410     0x0  zero_init3.o [4]
+
+"A2":                                         0x3c
+  .noinit              ro code  0x00000410    0x3c  crt0.o [1]
+                              - 0x0000044c    0x3c
+
+"P1", part 2 of 2:                          0x317c
+  .text                ro code  0x0000044c   0x684  ccd.o [1]
+  .text                ro code  0x00000ad0    0xc4  gpio.o [1]
+  .text                ro code  0x00000b94   0x3c6  adc.o [1]
+  .text                ro code  0x00000f5a    0x22  zero_init3.o [4]
+  .text                ro code  0x00000f7c    0x20  assert.o [1]
+  .text                ro code  0x00000f9c    0xb4  LED.o [1]
+  .text                ro code  0x00001050   0x55c  printf.o [1]
+  .text                ro code  0x000015ac    0x24  delay.o [1]
+  .text                ro code  0x000015d0    0x20  stdlib.o [1]
+  .text                ro code  0x000015f0   0x520  start.o [1]
+  .text                ro code  0x00001b10    0x38  wdog.o [1]
+  .text                ro code  0x00001b48    0xc0  startup.o [1]
+  .text                ro code  0x00001c08    0x5c  sysinit.o [1]
+  .text                ro code  0x00001c64   0x130  main.o [1]
+  .text                ro code  0x00001d94    0xbc  arm_cm4.o [1]
+  Veneer               ro code  0x00001e50     0x8  - Linker created -
+  .text                ro code  0x00001e58   0x2f4  mcg.o [1]
+  .text                ro code  0x0000214c   0x210  uart.o [1]
+  .text                ro code  0x0000235c   0x100  system.o [1]
+  .text                ro code  0x0000245c    0x7c  steer.o [1]
+  .text                ro code  0x000024d8   0x258  dma.o [1]
+  .text                ro code  0x00002730   0x1d0  nokia5110.o [1]
+  .text                ro code  0x00002900    0x70  PIT.o [1]
+  .text                ro code  0x00002970   0x3e8  FTM.o [1]
+  .text                ro code  0x00002d58    0x94  isr.o [1]
+  .data_init                    0x00002dec    0x74  <Block>
+    Initializer bytes  ro data  0x00002dec    0x74  <for .data-1>
+  .rodata              const    0x00002e60    0x54  adc.o [1]
+  .rodata              const    0x00002eb4    0x54  FTM.o [1]
+  .rodata              const    0x00002f08    0x54  gpio.o [1]
+  CodeRelocate                  0x00002f5c    0x50  <Block>
+    Initializer bytes  ro data  0x00002f5c    0x50  <for CodeRelocateRam-1>
+  .rodata              const    0x00002fac    0x4c  assert.o [1]
+  .rodata              const    0x00002ff8    0x48  start.o [1]
+  .rodata              const    0x00003040    0x40  start.o [1]
+  .rodata              const    0x00003080    0x38  arm_cm4.o [1]
+  .rodata              const    0x000030b8    0x30  vectors.o [1]
+  .rodata              const    0x000030e8    0x2c  start.o [1]
+  .rodata              const    0x00003114    0x28  start.o [1]
+  .rodata              const    0x0000313c    0x28  start.o [1]
+  .text                ro code  0x00003164    0x28  data_init.o [4]
+  .iar.init_table      const    0x0000318c    0x10  - Linker created -
+  .rodata              const    0x0000319c    0x20  isr.o [1]
+  .rodata              const    0x000031bc    0x20  start.o [1]
+  .rodata              const    0x000031dc    0x20  start.o [1]
+  .rodata              const    0x000031fc    0x20  start.o [1]
+  .rodata              const    0x0000321c    0x20  start.o [1]
+  .rodata              const    0x0000323c    0x20  start.o [1]
+  .rodata              const    0x0000325c    0x1c  start.o [1]
+  .rodata              const    0x00003278    0x1c  start.o [1]
+  .rodata              const    0x00003294    0x1c  start.o [1]
+  .text                ro code  0x000032b0    0x1a  cmain.o [4]
+  .text                ro code  0x000032ca     0x4  low_level_init.o [3]
+  .text                ro code  0x000032ce     0x4  exit.o [3]
+  .text                ro code  0x000032d4     0xa  cexit.o [4]
+  .text                ro code  0x000032e0    0x14  exit.o [5]
+  .rodata              const    0x000032f4    0x18  start.o [1]
+  .rodata              const    0x0000330c    0x18  start.o [1]
+  .rodata              const    0x00003324    0x18  start.o [1]
+  .rodata              const    0x0000333c    0x18  start.o [1]
+  .rodata              const    0x00003354    0x18  start.o [1]
+  .rodata              const    0x0000336c    0x18  start.o [1]
+  .rodata              const    0x00003384    0x18  start.o [1]
+  .rodata              const    0x0000339c    0x18  start.o [1]
+  .text                ro code  0x000033b4    0x18  vectors.o [1]
+  .rodata              const    0x000033cc    0x14  start.o [1]
+  .rodata              const    0x000033e0    0x14  start.o [1]
+  .rodata              const    0x000033f4    0x14  start.o [1]
+  .rodata              const    0x00003408    0x14  start.o [1]
+  .rodata              const    0x0000341c    0x14  start.o [1]
+  .rodata              const    0x00003430    0x14  start.o [1]
+  .rodata              const    0x00003444    0x14  start.o [1]
+  .rodata              const    0x00003458    0x14  start.o [1]
+  .rodata              const    0x0000346c    0x10  start.o [1]
+  .rodata              const    0x0000347c    0x10  start.o [1]
+  .rodata              const    0x0000348c    0x10  start.o [1]
+  .rodata              const    0x0000349c    0x10  start.o [1]
+  .rodata              const    0x000034ac    0x10  start.o [1]
+  .rodata              const    0x000034bc    0x10  start.o [1]
+  .rodata              const    0x000034cc    0x10  start.o [1]
+  .rodata              const    0x000034dc    0x10  start.o [1]
+  .rodata              const    0x000034ec    0x10  start.o [1]
+  .rodata              const    0x000034fc    0x10  start.o [1]
+  .rodata              const    0x0000350c    0x10  start.o [1]
+  .rodata              const    0x0000351c    0x10  start.o [1]
+  .rodata              const    0x0000352c    0x10  start.o [1]
+  .text                ro code  0x0000353c    0x10  io.o [1]
+  .rodata              const    0x0000354c     0xc  start.o [1]
+  .rodata              const    0x00003558     0xc  start.o [1]
+  .rodata              const    0x00003564     0xc  start.o [1]
+  .rodata              const    0x00003570     0xc  start.o [1]
+  .text                ro code  0x0000357c     0xc  cstartup_M.o [4]
+  .rodata              const    0x00003588     0x8  start.o [1]
+  .rodata              const    0x00003590     0x8  start.o [1]
+  .rodata              const    0x00003598     0x8  start.o [1]
+  .rodata              const    0x000035a0     0x8  start.o [1]
+  .rodata              const    0x000035a8     0x8  start.o [1]
+  .rodata              const    0x000035b0     0x8  start.o [1]
+  .rodata              const    0x000035b8     0x8  start.o [1]
+  .rodata              const    0x000035c0     0x8  start.o [1]
+                              - 0x000035c8  0x317c
+
+"P2", part 1 of 2:                            0xc4
+  .data                         0x1fff0410    0x74  <Block>
+    .data-1                     0x1fff0410    0x74  <Init block>
+      .data            inited   0x1fff0410     0x8  adc.o [1]
+      .data            inited   0x1fff0418     0xc  FTM.o [1]
+      .data            inited   0x1fff0424    0x14  gpio.o [1]
+      .data            inited   0x1fff0438    0x14  gpio.o [1]
+      .data            inited   0x1fff044c     0x4  main.o [1]
+      .data            inited   0x1fff0450     0x4  main.o [1]
+      .data            inited   0x1fff0454     0x4  main.o [1]
+      .data            inited   0x1fff0458     0x4  main.o [1]
+      .data            inited   0x1fff045c     0x4  main.o [1]
+      .data            inited   0x1fff0460     0x1  main.o [1]
+      .data            inited   0x1fff0464     0x8  mcg.o [1]
+      .data            inited   0x1fff046c    0x18  uart.o [1]
+  CodeRelocateRam               0x1fff0484    0x50  <Block>
+    CodeRelocateRam-1           0x1fff0484    0x50  <Init block>
+      .textrw          inited   0x1fff0484    0x50  mcg.o [1]
+                              - 0x1fff04d4    0xc4
+
+"P2", part 2 of 2:                           0x1f3
+  .bss                          0x1fff04d4   0x1f3  <Block>
+    .bss               zero     0x1fff04d4    0x10  adc.o [1]
+    .bss               zero     0x1fff04e4    0x40  dma.o [1]
+    .bss               zero     0x1fff0524     0x4  main.o [1]
+    .bss               zero     0x1fff0528    0x84  main.o [1]
+    .bss               zero     0x1fff05ac     0x4  main.o [1]
+    .bss               zero     0x1fff05b0     0x4  main.o [1]
+    .bss               zero     0x1fff05b4     0x4  main.o [1]
+    .bss               zero     0x1fff05b8    0x18  main.o [1]
+    .bss               zero     0x1fff05d0     0x8  main.o [1]
+    .bss               zero     0x1fff05d8    0x48  main.o [1]
+    .bss               zero     0x1fff0620    0x94  main.o [1]
+    .bss               zero     0x1fff06b4     0x4  sysinit.o [1]
+    .bss               zero     0x1fff06b8     0x4  sysinit.o [1]
+    .bss               zero     0x1fff06bc     0x4  sysinit.o [1]
+    .bss               zero     0x1fff06c0     0x1  main.o [1]
+    .bss               zero     0x1fff06c1     0x1  main.o [1]
+    .bss               zero     0x1fff06c2     0x1  main.o [1]
+    .bss               zero     0x1fff06c3     0x1  main.o [1]
+    .bss               zero     0x1fff06c4     0x1  main.o [1]
+    .bss               zero     0x1fff06c5     0x1  main.o [1]
+    .bss               zero     0x1fff06c6     0x1  main.o [1]
+                              - 0x1fff06c7   0x1f3
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1f3:
+          0x1fff04d4  0x1f3
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw code  ro data  rw data
+    ------            -------  -------  -------  -------
+C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf - 副本\build\uart_send_demo\Debug\Obj: [1]
+    FTM.o               1 000                96       12
+    LED.o                 180
+    PIT.o                 112
+    adc.o                 966                92       24
+    arm_cm4.o             188                56
+    assert.o               32                76
+    ccd.o               1 668
+    crt0.o                 60
+    delay.o                36
+    dma.o                 600                         64
+    gpio.o                196               124       40
+    io.o                   16
+    isr.o                 148                32
+    main.o                304                21      428
+    mcg.o                 756       80       91        8
+    nokia5110.o           464
+    printf.o            1 372
+    start.o             1 312             1 176
+    startup.o             192
+    stdlib.o               32
+    steer.o               124
+    sysinit.o              92                         12
+    system.o              256
+    uart.o                528                24       24
+    vectors.o              24             1 088
+    wdog.o                 56
+    ----------------------------------------------------
+    Total:             10 714       80    2 876      612
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                26
+    cstartup_M.o           12
+    data_init.o            40
+    zero_init3.o           34
+    ----------------------------------------------------
+    Total:                122
+
+shb_l.a: [5]
+    exit.o                 20
+    ----------------------------------------------------
+    Total:                 20
+
+    Gaps                    4                          3
+    Linker created          8                16
+--------------------------------------------------------
+    Grand Total:       10 876       80    2 892      615
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff04d4          --   Gb  - Linker created -
+.bss$$Limit             0x1fff06c7          --   Gb  - Linker created -
+.data$$Base             0x1fff0410          --   Gb  - Linker created -
+.data$$Limit            0x1fff0484          --   Gb  - Linker created -
+.data_init$$Base        0x00002dec          --   Gb  - Linker created -
+.data_init$$Limit       0x00002e60          --   Gb  - Linker created -
+?main                   0x000032b1         Code  Gb  cmain.o [4]
+ADCx                    0x1fff0410    0x8  Data  Gb  adc.o [1]
+ASSERT_FAILED_STR       0x00002fac   0x4c  Data  Gb  assert.o [1]
+BlackLine               0x1fff05d0    0x8  Data  Gb  main.o [1]
+CalcuBackline           0x00000665  0x154  Code  Gb  ccd.o [1]
+ChangeAngle             0x0000245d   0x6a  Code  Gb  steer.o [1]
+CodeRelocate$$Base      0x00002f5c          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00002fac          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff0484          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff04d4          --   Gb  - Linker created -
+D5110                   0x1fff05d8   0x48  Data  Gb  main.o [1]
+DMA_count_Init          0x000024d9  0x1f6  Code  Gb  dma.o [1]
+DMA_count_get           0x000026cf   0x1c  Code  Gb  dma.o [1]
+DMA_count_reset         0x000026eb   0x18  Code  Gb  dma.o [1]
+D_count                 0x1fff0524    0x4  Data  Gb  main.o [1]
+DealBlackLine           0x000008dd  0x1d0  Code  Gb  ccd.o [1]
+Delay_us                0x00002731   0x18  Code  Gb  nokia5110.o [1]
+FTM_PWM_Duty            0x00002c8b   0x84  Code  Gb  FTM.o [1]
+FTM_PWM_init            0x00002971  0x31a  Code  Gb  FTM.o [1]
+FTMx                    0x1fff0418    0xc  Data  Gb  FTM.o [1]
+GPIOx                   0x1fff0424   0x14  Data  Gb  gpio.o [1]
+GetAccurateBlackline    0x0000082d   0xb0  Code  Gb  ccd.o [1]
+GetPositionError        0x000007b9   0x74  Code  Gb  ccd.o [1]
+GetSpeedValue           0x0000241d   0x18  Code  Gb  system.o [1]
+HardFault_Handler       0x00002db3   0x22  Code  Gb  isr.o [1]
+ImageCapture            0x0000054d   0xf2  Code  Gb  ccd.o [1]
+LCD_Init                0x00002749   0xe2  Code  Gb  nokia5110.o [1]
+LCD_clear               0x0000282b   0x2a  Code  Gb  nokia5110.o [1]
+LCD_write_byte          0x00002855   0xa4  Code  Gb  nokia5110.o [1]
+LED_init                0x00000f9d   0x34  Code  Gb  LED.o [1]
+Master_Adc_Config       0x1fff04d4   0x10  Data  Gb  adc.o [1]
+PD_Kd                   0x1fff0450    0x4  Data  Gb  main.o [1]
+PD_Kp                   0x1fff044c    0x4  Data  Gb  main.o [1]
+PID_Kd                  0x1fff0458    0x4  Data  Gb  main.o [1]
+PID_Ki                  0x1fff045c    0x4  Data  Gb  main.o [1]
+PID_Kp                  0x1fff0454    0x4  Data  Gb  main.o [1]
+PIT0_IRQHandler         0x00002d59   0x54  Code  Gb  isr.o [1]
+PORTX                   0x1fff0438   0x14  Data  Gb  gpio.o [1]
+PSW                     0x1fff06c2    0x1  Data  Gb  main.o [1]
+PWM0                    0x1fff05ac    0x4  Data  Gb  main.o [1]
+PWM1                    0x1fff05b0    0x4  Data  Gb  main.o [1]
+PWM2                    0x1fff05b4    0x4  Data  Gb  main.o [1]
+Region$$Table$$Base     0x0000318c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000319c          --   Gb  - Linker created -
+Reset_Handler           0x00000411         Code  Gb  crt0.o [1]
+SamplingDelay           0x00000641   0x24  Code  Gb  ccd.o [1]
+SendDate                0x1fff06c6    0x1  Data  Gb  main.o [1]
+SetInitValue            0x000023e9   0x34  Code  Gb  system.o [1]
+StartIntegration        0x0000048f   0xbe  Code  Gb  ccd.o [1]
+Steer_error             0x1fff0528   0x84  Data  Gb  main.o [1]
+Time_10ms               0x1fff06c1    0x1  Data  Gb  main.o [1]
+Time_1ms                0x1fff06c5    0x1  Data  Gb  main.o [1]
+Time_Exposure           0x1fff0460    0x1  Data  Gb  main.o [1]
+UARTx                   0x1fff046c   0x18  Data  Gb  uart.o [1]
+USART0_IRQHandler       0x00002dad    0x6  Code  Gb  isr.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          --   Gb  command line/config [2]
+__cmain                 0x000032b1         Code  Gb  cmain.o [4]
+__code_start__ {Abs}    0x00000410          --   Gb  command line/config [2]
+__exit                  0x000032e1   0x14  Code  Gb  exit.o [5]
+__iar_data_init3        0x00003165   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x0000357d         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x00000f5b   0x22  Code  Gb  zero_init3.o [4]
+__low_level_init        0x000032cb    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x000032bd         Code  Gb  cmain.o [4]
+_exit                   0x000032d5         Code  Gb  cexit.o [4]
+_main                   0x000032c7         Code  Gb  cmain.o [4]
+abs                     0x0000044d   0x12  Code  Gb  ccd.o [1]
+ad_once                 0x00000e49   0x7e  Code  Gb  adc.o [1]
+adc_config_alt          0x00000f35   0x26  Code  Lc  adc.o [1]
+adc_init                0x00000b95  0x2b4  Code  Gb  adc.o [1]
+adc_start               0x00000ec7   0x48  Code  Gb  adc.o [1]
+assert_failed           0x00000f7d   0x20  Code  Gb  assert.o [1]
+bus_clk_khz             0x1fff06bc    0x4  Data  Gb  sysinit.o [1]
+ccd_init                0x0000045f   0x30  Code  Gb  ccd.o [1]
+common_startup          0x00001b49   0xc0  Code  Gb  startup.o [1]
+cord                    0x1fff05b8   0x18  Data  Gb  main.o [1]
+core_clk_khz            0x1fff06b4    0x4  Data  Gb  sysinit.o [1]
+core_clk_mhz            0x1fff06b8    0x4  Data  Gb  sysinit.o [1]
+count_init              0x1fff04e4   0x40  Data  Gb  dma.o [1]
+cpu_identify            0x0000171f  0x20a  Code  Gb  start.o [1]
+data                    0x1fff0620   0x94  Data  Gb  main.o [1]
+default_isr             0x000033b5   0x18  Code  Gb  vectors.o [1]
+delayms                 0x000015ad   0x1e  Code  Gb  delay.o [1]
+enable_irq              0x00001d9b   0x94  Code  Gb  arm_cm4.o [1]
+exit                    0x000032cf    0x4  Code  Gb  exit.o [3]
+flash_identify          0x00001929   0xbe  Code  Gb  start.o [1]
+gpio_init               0x00000ad1   0xb6  Code  Gb  gpio.o [1]
+k1                      0x1fff06c3    0x1  Data  Gb  main.o [1]
+k2                      0x1fff06c4    0x1  Data  Gb  main.o [1]
+led                     0x00000fd1   0x1e  Code  Gb  LED.o [1]
+main                    0x00001c65  0x130  Code  Gb  main.o [1]
+mcg_div                 0x1fff0464    0x8  Data  Gb  mcg.o [1]
+out_char                0x0000353d   0x10  Code  Gb  io.o [1]
+pit_init                0x00002901   0x62  Code  Gb  PIT.o [1]
+pll_init                0x00001e59  0x2f4  Code  Gb  mcg.o [1]
+printf                  0x00001583   0x26  Code  Gb  printf.o [1]
+printk                  0x00001179  0x40a  Code  Gb  printf.o [1]
+printk_mknumstr         0x00001083   0xaa  Code  Lc  printf.o [1]
+printk_pad_space        0x00001153   0x26  Code  Lc  printf.o [1]
+printk_pad_zero         0x0000112d   0x26  Code  Lc  printf.o [1]
+printk_putc             0x00001051   0x32  Code  Lc  printf.o [1]
+set_sys_dividers        0x1fff0485   0x50  Code  Gb  mcg.o [1]
+start                   0x000015f1  0x12e  Code  Gb  start.o [1]
+stopflag                0x1fff06c0    0x1  Data  Gb  main.o [1]
+strlen                  0x000015d1   0x20  Code  Gb  stdlib.o [1]
+sysinit                 0x00001c09   0x48  Code  Gb  sysinit.o [1]
+system_Init             0x0000235d   0x8c  Code  Gb  system.o [1]
+uart_init               0x0000214d  0x1b0  Code  Gb  uart.o [1]
+uart_putchar            0x000022fd   0x1a  Code  Gb  uart.o [1]
+water_lights            0x00000fef   0x5c  Code  Gb  LED.o [1]
+wdog_disable            0x00001b11   0x16  Code  Gb  wdog.o [1]
+wdog_unlock             0x00001b29   0x16  Code  Gb  wdog.o [1]
+write_vtor              0x00001d95    0x6  Code  Gb  arm_cm4.o [1]
+
+
+[1] = C:\Users\lenovo\Desktop\一些测试程序\CCD\CCd-bcakupf - 副本\build\uart_send_demo\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  10 876 bytes of readonly  code memory
+      80 bytes of readwrite code memory
+   2 892 bytes of readonly  data memory
+     615 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

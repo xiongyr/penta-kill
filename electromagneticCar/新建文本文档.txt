@@ -1,0 +1,3 @@
+int PWM0=4350;
+s16 TargetAngle[8]={0};
+FTM_PWM_init(FTM0, CH0, 300,4350);
